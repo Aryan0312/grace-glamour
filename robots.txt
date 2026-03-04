@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://grace-glamour.vercel.app/sitemap.xml
