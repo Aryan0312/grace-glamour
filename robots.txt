@@ -1,15 +1,15 @@
 # Grace & Glamour — robots.txt
-# https://grace-glamour.vercel.app
+# Primary domain: www.gracenglamour.site
 
 User-agent: *
 Allow: /
 
-# Block crawling of non-content files
+# Block crawling of non-content resource files
 Disallow: /js/
 Disallow: /css/
 
-# Allow specific resources that search engines might need
+# Allow images for Google Image Search
 Allow: /images/
 
-# Sitemap location
-Sitemap: https://grace-glamour.vercel.app/sitemap.xml
+# Sitemap
+Sitemap: https://www.gracenglamour.site/sitemap.xml
