@@ -1,12 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://grace-glamour.vercel.app/</loc><lastmod>2026-03-04</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://grace-glamour.vercel.app/about.html</loc><lastmod>2026-03-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://grace-glamour.vercel.app/services.html</loc><lastmod>2026-03-04</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://grace-glamour.vercel.app/bridal.html</loc><lastmod>2026-03-04</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://grace-glamour.vercel.app/gallery.html</loc><lastmod>2026-03-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://grace-glamour.vercel.app/offers.html</loc><lastmod>2026-03-04</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://grace-glamour.vercel.app/testimonials.html</loc><lastmod>2026-03-04</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://grace-glamour.vercel.app/locations.html</loc><lastmod>2026-03-04</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://grace-glamour.vercel.app/contact.html</loc><lastmod>2026-03-04</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://grace-glamour.vercel.app/</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://grace-glamour.vercel.app/about</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/about-salon.jpg</image:loc>
+      <image:title>Grace and Glamour luxury salon interior</image:title>
+    </image:image>
+  </url>
+
+  <!-- Services & Price List -->
+  <url>
+    <loc>https://grace-glamour.vercel.app/services</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Bridal -->
+  <url>
+    <loc>https://grace-glamour.vercel.app/bridal</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Gallery -->
+  <url>
+    <loc>https://grace-glamour.vercel.app/gallery</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/gallery-1.jpg</image:loc>
+      <image:title>Bridal makeup look by Grace and Glamour</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/gallery-2.jpg</image:loc>
+      <image:title>Hair styling at Grace and Glamour Surat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/gallery-3.jpg</image:loc>
+      <image:title>Professional makeup at Grace and Glamour</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/gallery-4.jpg</image:loc>
+      <image:title>Nail art design at Grace and Glamour</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/gallery-5.jpg</image:loc>
+      <image:title>Skincare results at Grace and Glamour</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/gallery-6.jpg</image:loc>
+      <image:title>Bridal hair styling at Grace and Glamour</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/gallery-7.jpg</image:loc>
+      <image:title>Party makeup at Grace and Glamour Surat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/gallery-8.jpg</image:loc>
+      <image:title>Hair colour at Grace and Glamour</image:title>
+    </image:image>
+  </url>
+
+  <!-- Offers -->
+  <url>
+    <loc>https://grace-glamour.vercel.app/offers</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Testimonials / Reviews -->
+  <url>
+    <loc>https://grace-glamour.vercel.app/testimonials</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Locations -->
+  <url>
+    <loc>https://grace-glamour.vercel.app/locations</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grace-glamour.vercel.app/images/salon-interior.jpg</image:loc>
+      <image:title>Grace and Glamour salon interior</image:title>
+    </image:image>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://grace-glamour.vercel.app/contact</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
 </urlset>
